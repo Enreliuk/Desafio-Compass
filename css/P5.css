@@ -1,0 +1,131 @@
+body {
+    height: 760px;
+    width: 1280px;
+    background-color: #FFFFFF;
+}
+
+#titulo {
+    position: absolute;
+    width: 466px;
+    height: 100px;
+    left: 732px;
+    top: 175px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;   
+}
+
+#img {
+    position: absolute;
+    width: 552.51px;
+    height: 521.01px;
+    left: 87.49px;
+    top: 105px;
+}
+
+#botao1 {
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    left: 734px;
+    top: 572px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none
+}
+
+#botao2 {
+    position: absolute;
+    width: 198px;
+    height: 36px;
+    left: 960px;
+    top: 571px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+}
+
+#botao3 {
+    position: absolute;
+    width: 418px;
+    height: 36px;
+    left: 734px;
+    top: 623px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none
+}
+
+#details {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 459px;
+    height: 225px;
+    left: 732px;
+    top: 285px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: left;
+
+    color: rgba(0, 0, 0, 0.658);
+    
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#cont {
+    position: absolute;
+    width: 459px;
+    height: 225px;
+    left: 740px;
+    top: 510px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+
+    color: rgba(0, 0, 0, 0.658);
+}

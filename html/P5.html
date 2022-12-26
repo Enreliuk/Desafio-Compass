@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/P5.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <title>1º Desafio</title>
+    </head>
+    <body>
+        <header>
+            <div id="titulo">If you or someone close to you has already made a loss on the investment, write down the details</div>
+            <form action="/action_page.php">
+                <label for="details"></label>
+                <div id="cont"><span>130</span> Restantes</div> <br>
+                <textarea onkeyup="limite_textarea(this.value)" id="details" name="details" rows="4" cols="28" maxlength="130"></textarea>
+                <script>
+                    function limite_textarea(valor) {
+                        quant = 130;
+                        total = valor.length;
+                        if(total <= quant) {
+                            resto = quant - total;
+                             document.getElementById('cont').innerHTML = resto;
+                        } else {
+                            document.getElementById('texto').value = valor.substr(0,quant);
+                        }
+                    }
+                </script>
+            </form>
+            <a href="P4.html" target="_self">
+                <button id ="botao1" type="button">Back</button>
+            </a>
+            <a href="P6.html" target="_self">
+                <button id ="botao2" type="button">Next</button>
+            </a>
+            <a href="P6.html" target="_self">
+                <button id ="botao3" type="button">Skip</button>
+            </a>
+        </header>
+        <section class="imagem">
+            <img id="img" src="\Imagens\four.png">
+        </section>
+    </body>
+</html>
