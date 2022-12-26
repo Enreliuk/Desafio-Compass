@@ -1,15 +1,13 @@
 body {
-    height: 760px;
-    width: 1280px;
     background-color: #FFFFFF;
 }
 
 #titulo {
     position: absolute;
-    width: 456px;
-    height: 106px;
-    left: 723px;
-    top: 231px;
+    width: 35.63%;
+    height: 13.95%;
+    left: 56.48%;
+    top: 30.39%;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -23,10 +21,10 @@ body {
 
 #subtitulo {
     position: absolute;
-    width: 473px;
-    height: 47px;
-    left: 723px;
-    top: 381px;
+    width: 36.95%;
+    height: 6.18%;
+    left: 56.48%;
+    top: 50.13%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -38,20 +36,22 @@ body {
     color: #000000;
 }
 
-#img {
+#imag {
     position: absolute;
-    width: 431px;
-    height: 661px;
-    left: 212px;
-    top: 51px;
+    width: 33.67%;
+    height: 86.97%;
+    left: 16.56%;
+    top: 6.71%;
+    max-width: 431px;
+    max-height: 661px;
 }
 
 #button {
     position: absolute;
-    width: 199px;
-    height: 35.55px;
-    left: 864px;
-    top: 494px;
+    width: 15.55%;
+    height: 4.68%;
+    left: 67.50%;
+    top: 65%;
 
     background: #3EB25E;
     border-radius: 35px;
@@ -65,4 +65,71 @@ body {
     border: none;
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 767.98px) {
+    #titulo {
+        position: absolute;
+        width: 55.00%;
+        height: 7.50%;
+        left: 22.50%;
+        top: 65.39%;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 53px;
+        line-height: 62px;
+        text-align: center;
+        
+        color: #000000;
+    }
+
+    #subtitulo {
+        position: absolute;
+        width: 79.58%;
+        height: 6.18%;
+        left: 10.21%;
+        top: 76.18%;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        
+        color: #000000;
+    }
+    
+    #imag {
+        position: absolute;
+        width: 271px;
+        height: 416px;
+        left: 12.29%;
+        top: 7.37%;
+        max-width: 271px;
+        max-height: 416px;
+    }
+    
+    #button {
+        position: absolute;
+        width: 41.46%;
+        height: 4.74%;
+        left: 29.38%;
+        top: 85%;
+    
+        background: #3EB25E;
+        border-radius: 35px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+        border: none;
+    
+        color: #FFFFFF;
+    }
 }

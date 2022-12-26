@@ -1,15 +1,13 @@
 body {
-    height: 760px;
-    width: 1280px;
     background-color: #FFFFFF;
 }
 
 #titulo {
     position: absolute;
-    width: 466px;
-    height: 100px;
-    left: 732px;
-    top: 175px;
+    width: 36.41%;
+    height: 13.16%;
+    left: 57.19%;
+    top: 23.03%;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -20,20 +18,22 @@ body {
     color: #000000;   
 }
 
-#img {
+#imag {
     position: absolute;
-    width: 552.51px;
-    height: 521.01px;
-    left: 87.49px;
-    top: 105px;
+    width: 43.16%;
+    height: 68.55%;
+    left: 6.84%;
+    top: 13.82%;
+    max-width: 552.51px;
+    max-height: 521.01px;
 }
 
 #botao1 {
     position: absolute;
-    width: 199px;
-    height: 36px;
-    left: 734px;
-    top: 572px;
+    width: 15.55%;
+    height: 4.74%;
+    left: 57.34%;
+    top: 75.26%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -51,10 +51,10 @@ body {
 
 #botao2 {
     position: absolute;
-    width: 198px;
-    height: 36px;
-    left: 960px;
-    top: 571px;
+    width: 15.47%;
+    height: 4.74%;
+    left: 75%;
+    top: 75.13%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -72,10 +72,10 @@ body {
 
 #botao3 {
     position: absolute;
-    width: 418px;
-    height: 36px;
-    left: 734px;
-    top: 623px;
+    width: 32.66%;
+    height: 4.74%;
+    left: 57.34%;
+    top: 81.97%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -95,10 +95,10 @@ body {
     box-sizing: border-box;
 
     position: absolute;
-    width: 459px;
-    height: 225px;
-    left: 732px;
-    top: 285px;
+    width: 35.86%;
+    height: 29.61%;
+    left: 57.19%;
+    top: 37.50%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -115,10 +115,10 @@ body {
 
 #cont {
     position: absolute;
-    width: 459px;
-    height: 225px;
-    left: 740px;
-    top: 510px;
+    width: 35.86%;
+    height: 29.61%;
+    left: 89.06%;
+    top: 67.11%;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -128,4 +128,134 @@ body {
     text-align: left;
 
     color: rgba(0, 0, 0, 0.658);
+}
+
+@media screen and (max-width: 767.98px) {
+    #titulo {
+        position: absolute;
+        width: 54.37%;
+        height: 7.76%;
+        left: 21.25%;
+        top: 55.66%;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #000000;   
+    }
+    
+    #imag {
+        position: absolute;
+        width: 75.11%;
+        height: 44.74%;
+        left: 14.58%;
+        top: 7.89%;
+        max-width: 360.55px;
+        max-height: 340px;
+    }
+    
+    #botao1 {
+        position: absolute;
+        width: 29.58%;
+        height: 3.42%;
+        left: 18.96%;
+        top: 85%;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        color: #FFFFFF;
+        
+        background: #3EB25E;
+        border-radius: 35px;
+        border: none
+    }
+    
+    #botao2 {
+        position: absolute;
+        width: 29.58%;
+        height: 3.42%;
+        left: 52.29%;
+        top: 84.87%;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        color: #FFFFFF;
+        
+        background: #3EB25E;
+        border-radius: 35px;
+        border: none;
+    }
+    
+    #botao3 {
+        position: absolute;
+        width: 62.92%;
+        height: 3.42%;
+        left: 18.96%;
+        top: 89.61%;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    
+        color: #FFFFFF;
+        
+        background: #3EB25E;
+        border-radius: 35px;
+        border: none
+    }
+    
+    #details {
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 57.92%;
+        height: 17.24%;
+        left: 20%;
+        top: 64.74%;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    
+        color: rgba(0, 0, 0, 0.658);
+        
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    
+    #cont {
+        position: absolute;
+        width: 57.92%;
+        height: 17.24%;
+        left: 68.75%;
+        top: 81.45%;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: left;
+    
+        color: rgba(0, 0, 0, 0.658);
+    }
 }
