@@ -46,6 +46,7 @@ body {
     font-weight: 400;
     font-size: 27px;
     line-height: 32px;
+    text-align: center;
 
     color: #000000;
 
@@ -194,6 +195,7 @@ select {
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
+        text-align: center;
     
         color: #000000;
     
