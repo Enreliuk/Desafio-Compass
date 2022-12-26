@@ -1,0 +1,151 @@
+body {
+    height: 760px;
+    width: 1280px;
+    background-color: #FFFFFF;
+}
+
+#titulo1 {
+    position: absolute;
+    width: 404px;
+    height: 40px;
+    left: 734px;
+    top: 173px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;    
+}
+
+#titulo2 {
+    position: absolute;
+    width: 502px;
+    height: 70px;
+    left: 734px;
+    top: 302px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+
+#status {
+    position: absolute;
+    width: 459px;
+    height: 52px;
+    left: 732px;
+    top: 221px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #000000;
+
+    border: 0.5px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#img {
+    position: absolute;
+    width: 552.51px;
+    height: 528.01px;
+    left: 87.49px;
+    top: 98px; 
+}
+
+#botao1 {
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    left: 734px;
+    top: 572px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none
+}
+
+#botao2 {
+    position: absolute;
+    width: 198px;
+    height: 36px;
+    left: 960px;
+    top: 571px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+}
+
+#botao3 {
+    position: absolute;
+    width: 418px;
+    height: 36px;
+    left: 734px;
+    top: 623px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none
+}
+
+#resources {
+    position: absolute;
+    width: 422px;
+    height: 156px;
+    left: 785px;
+    top: 384px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #000000;
+    
+}

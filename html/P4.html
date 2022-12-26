@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/P4.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <title>1º Desafio</title>
+    </head>
+    <body>
+        <header>
+            <div id="titulo1">How do you decide to invest?</div>
+            <p>
+                <select id="status" name="status">
+                    <option value="not created">I have not invested yet.</option>
+                    <option value="already created">I want financial security.</option>
+                    <option value="forgot account">I want to increase my equity.</option>
+                </select>
+            </p>
+            <div id="titulo2">What resources have you used or are you using for your training?</div>
+            <form id="resources" action="/action_page.php">
+              <input type="checkbox" id="recurso1" name="recurso1" value="books">
+              <label for="recurso1"> Books and articles</label><br>
+              <input type="checkbox" id="recurso2" name="recurso2" value="youtube">
+              <label for="recurso2"> YouTube tutorial videos</label><br>
+              <input type="checkbox" id="recurso3" name="recurso3" value="online">
+              <label for="recurso3"> Online or face to face courses</label><br>
+              <input type="checkbox" id="recurso4" name="recurso4" value="experience">
+              <label for="recurso4"> Experience with little investment</label><br>
+            </form>
+            <a href="P3.html" target="_self">
+                <button id ="botao1" type="button">Back</button>
+            </a>
+            <a href="P5.html" target="_self">
+                <button id ="botao2" type="button">Next</button>
+            </a>
+            <a href="P5.html" target="_self">
+                <button id ="botao3" type="button">Skip</button>
+            </a>
+        </header>
+        <section class="imagem">
+            <img id="img" src="\Imagens\three.png">
+        </section>
+    </body>
+</html>
