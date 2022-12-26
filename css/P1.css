@@ -1,7 +1,7 @@
 body {
     height: 760px;
     width: 1280px;
-    background-color: #F7F7F7;
+    background-color: #FFFFFF;
 }
 
 #titulo {
@@ -38,7 +38,7 @@ body {
     color: #000000;
 }
 
-#img1 {
+#img {
     position: absolute;
     width: 431px;
     height: 661px;
@@ -62,7 +62,7 @@ body {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    border: 1px solid #3EB25E;
+    border: none;
 
     color: #FFFFFF;
 }

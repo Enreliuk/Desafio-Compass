@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/P3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <title>1º Desafio</title>
+    </head>
+    <body>
+        <header>
+            <div id="titulo1">What is the status of your account?</div>
+            <p>
+                <select id="status" name="status">
+                    <option value="not created">I have not created an account yet.</option>
+                    <option value="already created">I already have an account.</option>
+                    <option value="forgot account">I forgot my account.</option>
+                </select>
+            </p>
+            <div id="titulo2">In which financial markets do you operate?</div>
+            <form id="market" action="/action_page.php">
+                <input id="one" type="radio" id="stock" name="which" value="stock">
+                <label for="stock">stock market</label><br>
+                <input type="radio" id="foreign" name="which" value="foreign">
+                <label for="foreign">foreign exchange</label><br>
+                <input type="radio" id="commodity" name="which" value="commodity">
+                <label for="commodity">commodity</label><br>
+                <input type="radio" id="bond" name="which" value="bond">
+                <label for="bond">bond market</label><br>
+                <input type="radio" id="crypto" name="which" value="crypto">
+                <label for="crypto">cryptocurrency market</label>
+            <a href="P2.html" target="_self">
+                <button id ="botao1" type="button">Back</button>
+            </a>
+            <a href="P4.html" target="_self">
+                <button id ="botao2" type="button">Next</button>
+            </a>
+            <a href="P4.html" target="_self">
+                <button id ="botao3" type="button">Skip</button>
+            </a>
+        </header>
+        <section class="imagem">
+            <img id="img" src="\Imagens\two.png">
+        </section>
+    </body>
+</html>

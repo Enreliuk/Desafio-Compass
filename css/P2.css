@@ -1,0 +1,86 @@
+body {
+    height: 760px;
+    width: 1280px;
+    background-color: #FFFFFF;
+}
+
+#titulo {
+    position: absolute;
+    width: 473px;
+    height: 101px;
+    left: 719px;
+    top: 223px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 46px;
+    text-align: center;
+    
+    color: #000000;
+
+}
+
+#texto {
+    position: absolute;
+    width: 443px;
+    height: 169px;
+    left: 734px;
+    top: 338px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+#img {
+    position: absolute;
+    width: 552.51px;
+    height: 480.01px;
+    left: 87.49px;
+    top: 146px;
+}
+
+#botao1 {
+    position: absolute;
+    width: 199px;
+    height: 36px;
+    left: 734px;
+    top: 572px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none
+}
+
+#botao2 {
+    position: absolute;
+    width: 198px;
+    height: 36px;
+    left: 960px;
+    top: 571px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+    
+    background: #3EB25E;
+    border-radius: 35px;
+    border: none;
+}
